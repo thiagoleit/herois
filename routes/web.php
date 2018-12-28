@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-
+  return redirect('guerreiros');
 });
 
 Route::resource('tipos', 'TipoController');
