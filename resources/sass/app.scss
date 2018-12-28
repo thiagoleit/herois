@@ -8,7 +8,22 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+//Selectize
+@import "node_modules/selectize/dist/css/selectize";
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+input[type=file]{
+  display: inline;
+}
+#image_preview{
+  border: 1px solid black;
+  padding: 10px;
+}
+#image_preview img{
+  width: 200px;
+  padding: 5px;
 }
